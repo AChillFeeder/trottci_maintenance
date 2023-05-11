@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+    padding: 2%;
+}
+
+#flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    /* margin-bottom: 5%; */
+}
+
+p{
+    padding: 3%;
+    line-height: 28px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+img{
+    height: 10%;
+    width: 10%;
+}
+
