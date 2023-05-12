@@ -5,12 +5,15 @@
 body{
     background-color: white;
     padding: 2%;
+    padding-top: 0;
 }
 
 #flex-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    column-gap: 25px;
+    flex-wrap: wrap;
 }
 
 #contenu{
@@ -29,13 +32,20 @@ body{
 ul{
     list-style: none;
     text-align: center;
+    padding-left: 0;
 
     display: flex;
     justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+li{
+    min-width: 150px;
 }
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
 }
 
